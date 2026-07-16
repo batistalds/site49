@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "title": "Site49 — Sites profissionais a partir de 49€/mês",
+    "description": "A Site49 cria e gere o seu site profissional por uma mensalidade simples, a partir de 49€/mês. Design, hospedagem, manutenção e suporte incluídos."
+  },
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "pricing": "Preços",
+    "portfolio": "Portfólio",
+    "contact": "Contacto",
+    "cta": "Pedir orçamento",
+    "languageLabel": "Idioma"
+  },
+  "languages": {
+    "pt-PT": "Português (Portugal)",
+    "pt-BR": "Português (Brasil)",
+    "en": "English",
+    "es": "Español"
+  },
+  "hero": {
+    "badge": "Sites profissionais, sem complicações",
+    "titlePrefix": "O site profissional que o seu negócio merece,",
+    "titleHighlight": "a partir de 49€/mês",
+    "subtitle": "Design, hospedagem, manutenção e suporte técnico incluídos numa única mensalidade simples. Sem grandes investimentos iniciais e sem surpresas na fatura.",
+    "ctaPrimary": "Pedir orçamento",
+    "ctaSecondary": "Ver planos",
+    "trust": {
+      "sites": "+200 sites criados",
+      "rating": "4.9/5 de satisfação",
+      "noLockIn": "Sem fidelização obrigatória"
+    },
+    "mockup": {
+      "browserLabel": "painel.site49.pt",
+      "kpi1Label": "Visitantes este mês",
+      "kpi1Value": "12 480",
+      "kpi2Label": "Vendas online",
+      "kpi2Value": "3 214 €",
+      "kpi3Label": "Taxa de conversão",
+      "kpi3Value": "4,8%",
+      "chartLabel": "Desempenho do site"
+    }
+  },
+  "services": {
+    "eyebrow": "O que fazemos",
+    "title": "Dois serviços, um único objetivo: o crescimento do seu negócio",
+    "subtitle": "Comece com um site profissional e evolua para uma gestão mais inteligente do seu negócio sempre que estiver pronto.",
+    "sites": {
+      "badge": "Serviço principal",
+      "title": "Criação de Sites",
+      "description": "Sites institucionais, lojas online e landing pages desenhados para transformar visitantes em clientes, com tudo incluído numa mensalidade acessível.",
+      "features": [
+        "Design responsivo e moderno",
+        "Otimização para motores de busca (SEO)",
+        "Hospedagem incluída",
+        "Suporte técnico contínuo",
+        "Atualizações e manutenção incluídas",
+        "Certificado de segurança (SSL)"
+      ],
+      "cta": "Explorar planos"
+    },
+    "dashboards": {
+      "badge": "Complemento opcional",
+      "title": "Dashboards Personalizados",
+      "description": "Painéis de gestão à medida do seu negócio, para acompanhar vendas, processos ou clientes num único lugar, em tempo real e em qualquer dispositivo.",
+      "features": [
+        "Métricas e indicadores em tempo real",
+        "Desenhado à medida do seu negócio",
+        "Acesso seguro em qualquer dispositivo",
+        "Integração direta com o seu site Site49"
+      ],
+      "note": "Disponível como complemento a qualquer plano de site, ou incluído no plano Empresarial.",
+      "cta": "Saber mais",
+      "previewGrowth": "+18% este mês",
+      "previewLabel": "Painel"
+    }
+  },
+  "pricing": {
+    "eyebrow": "Preços",
+    "title": "Um plano para cada fase do seu negócio",
+    "subtitle": "Sem custos escondidos. Cancele quando quiser, sem penalizações.",
+    "monthly": "Mensal",
+    "annual": "Anual",
+    "annualBadge": "2 meses grátis",
+    "recommended": "Mais escolhido",
+    "perMonth": "/mês",
+    "billedAnnually": "faturado anualmente a {price}",
+    "ctaPlan": "Escolher plano",
+    "addonTitle": "Dashboard Personalizado",
+    "addonNote": "Disponível como complemento opcional a partir de 39€/mês em qualquer plano — já incluído no plano Empresarial.",
+    "plans": {
+      "basic": {
+        "name": "Básico",
+        "description": "Ideal para começar com presença profissional online.",
+        "price": "49",
+        "priceAnnual": "490",
+        "features": [
+          "Até 5 páginas",
+          "Design responsivo",
+          "Domínio incluído (1 ano)",
+          "Hospedagem incluída",
+          "Certificado SSL incluído",
+          "Suporte por email",
+          "1 atualização de conteúdo/mês"
+        ]
+      },
+      "pro": {
+        "name": "Profissional",
+        "description": "Para negócios que querem vender e crescer online.",
+        "price": "89",
+        "priceAnnual": "890",
+        "features": [
+          "Até 12 páginas",
+          "Loja online (até 50 produtos)",
+          "SEO avançado",
+          "Domínio e hospedagem incluídos",
+          "Certificado SSL incluído",
+          "Suporte prioritário",
+          "4 atualizações de conteúdo/mês",
+          "Relatórios mensais de desempenho"
+        ]
+      },
+      "enterprise": {
+        "name": "Empresarial",
+        "description": "Solução completa com gestão dedicada.",
+        "price": "149",
+        "priceAnnual": "1490",
+        "features": [
+          "Páginas ilimitadas",
+          "Loja online ilimitada",
+          "SEO avançado + estratégia de conteúdo",
+          "Domínio e hospedagem premium",
+          "Suporte dedicado 24/7",
+          "Atualizações ilimitadas",
+          "Gestor de conta dedicado",
+          "Dashboard Personalizado incluído"
+        ]
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Como funciona",
+    "title": "Do primeiro contacto ao site no ar, sem complicações",
+    "subtitle": "Um processo simples e transparente, pensado para não lhe roubar tempo.",
+    "steps": [
+      {
+        "title": "Conversa inicial",
+        "description": "Percebemos o seu negócio, os seus objetivos e o que precisa de um site para ter sucesso."
+      },
+      {
+        "title": "Design e conteúdo",
+        "description": "Criamos o design à medida e reunimos o conteúdo consigo, com revisões incluídas até ficar perfeito."
+      },
+      {
+        "title": "Lançamento",
+        "description": "O seu site vai ao ar, otimizado, rápido e pronto para converter visitantes em clientes."
+      },
+      {
+        "title": "Suporte contínuo",
+        "description": "Continuamos a acompanhar, atualizar e otimizar o seu site todos os meses, sem custos extra."
+      }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Portfólio",
+    "title": "Sites feitos para inspirar confiança",
+    "subtitle": "Alguns exemplos do tipo de trabalho que criamos para os nossos clientes.",
+    "items": [
+      { "title": "Clínica Dentária Sorriso+", "category": "Site institucional" },
+      { "title": "Loja Vera Moda", "category": "Loja online" },
+      { "title": "Estúdio Arquitetura Linha", "category": "Site institucional" },
+      { "title": "Restaurante O Pátio", "category": "Landing page" },
+      { "title": "Consultora Financeira Prisma", "category": "Site institucional" },
+      { "title": "Academia FitCore", "category": "Landing page" }
+    ],
+    "viewProject": "Ver exemplo"
+  },
+  "testimonials": {
+    "eyebrow": "Depoimentos",
+    "title": "Quem trabalha connosco, recomenda",
+    "subtitle": "A opinião de quem já confiou o seu negócio à Site49.",
+    "items": [
+      {
+        "name": "Marta Oliveira",
+        "role": "Proprietária, Clínica Sorriso+",
+        "text": "Em duas semanas tínhamos o site no ar e já começámos a receber marcações através dele. O acompanhamento mensal dá-nos uma tranquilidade que não tínhamos com a agência anterior.",
+        "rating": 5
+      },
+      {
+        "name": "Ricardo Almeida",
+        "role": "Fundador, Loja Vera Moda",
+        "text": "A loja online superou as expectativas. O preço mensal é justo e nunca mais nos preocupámos com hospedagem, segurança ou atualizações.",
+        "rating": 5
+      },
+      {
+        "name": "Sofia Baptista",
+        "role": "Diretora, Consultora Prisma",
+        "text": "O dashboard personalizado mudou a forma como acompanhamos os nossos clientes. Tudo num único painel, simples e claro.",
+        "rating": 5
+      },
+      {
+        "name": "Tiago Ferreira",
+        "role": "Chef e proprietário, Restaurante O Pátio",
+        "text": "Sem experiência nenhuma em tecnologia, a equipa da Site49 tratou de tudo. Hoje o nosso site é o cartão de visita do restaurante.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Perguntas frequentes",
+    "title": "Ainda tem dúvidas?",
+    "subtitle": "Reunimos as perguntas mais comuns dos nossos clientes.",
+    "items": [
+      {
+        "question": "Existe fidelização ou contrato mínimo?",
+        "answer": "Não. Trabalhamos com mensalidades sem fidelização obrigatória. Pode cancelar a qualquer momento, sem penalizações."
+      },
+      {
+        "question": "Quanto tempo demora até o site estar pronto?",
+        "answer": "Em média, entre 2 a 4 semanas, dependendo da complexidade do projeto e da rapidez na partilha de conteúdos e feedback."
+      },
+      {
+        "question": "Quem escreve os textos do meu site?",
+        "answer": "A nossa equipa ajuda a estruturar e a redigir os textos consigo, com base nas informações do seu negócio. Também pode fornecer o seu próprio conteúdo, se preferir."
+      },
+      {
+        "question": "O que acontece se eu quiser cancelar?",
+        "answer": "Pode cancelar quando quiser, sem penalizações. Disponibilizamos os ficheiros do seu site para que a transição seja simples."
+      },
+      {
+        "question": "Posso mudar de plano mais tarde?",
+        "answer": "Sim. Pode fazer upgrade ou downgrade do seu plano a qualquer momento, consoante as necessidades do seu negócio."
+      },
+      {
+        "question": "O domínio e a hospedagem estão incluídos?",
+        "answer": "Sim, o domínio e a hospedagem estão incluídos em todos os planos, sem custos adicionais a gerir por si."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Vamos criar o seu site profissional",
+    "subtitle": "Preencha o formulário e a nossa equipa entra em contacto em menos de 24 horas.",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "O seu nome completo",
+      "email": "Email",
+      "emailPlaceholder": "o.seu@email.com",
+      "phone": "Telefone",
+      "phonePlaceholder": "+351 900 000 000",
+      "message": "Mensagem",
+      "messagePlaceholder": "Conte-nos um pouco sobre o seu negócio e o que procura...",
+      "submit": "Pedir orçamento",
+      "success": "Mensagem enviada com sucesso! Entraremos em contacto em breve."
+    },
+    "info": {
+      "title": "Contacto direto",
+      "email": "ola@site49.pt",
+      "phone": "+351 210 000 000",
+      "hours": "Segunda a sexta, 9h–18h"
+    }
+  },
+  "footer": {
+    "description": "Sites profissionais por uma mensalidade simples, a partir de 49€/mês. Sem grandes investimentos, sem complicações.",
+    "quickLinksTitle": "Links rápidos",
+    "legalTitle": "Legal",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos e Condições",
+    "cookies": "Política de Cookies",
+    "socialTitle": "Siga-nos",
+    "rights": "© {year} Site49. Todos os direitos reservados."
+  }
+}

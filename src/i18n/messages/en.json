@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "title": "Site49 — Professional websites from €49/month",
+    "description": "Site49 builds and manages your professional website for one simple monthly fee, starting at €49/month. Design, hosting, maintenance and support included."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "cta": "Get a quote",
+    "languageLabel": "Language"
+  },
+  "languages": {
+    "pt-PT": "Português (Portugal)",
+    "pt-BR": "Português (Brasil)",
+    "en": "English",
+    "es": "Español"
+  },
+  "hero": {
+    "badge": "Professional websites, made simple",
+    "titlePrefix": "The professional website your business deserves,",
+    "titleHighlight": "from €49/month",
+    "subtitle": "Design, hosting, maintenance and technical support, all included in one simple monthly fee. No big upfront investment, no surprises on your bill.",
+    "ctaPrimary": "Get a quote",
+    "ctaSecondary": "View plans",
+    "trust": {
+      "sites": "200+ websites built",
+      "rating": "4.9/5 customer satisfaction",
+      "noLockIn": "No long-term contract"
+    },
+    "mockup": {
+      "browserLabel": "dashboard.site49.com",
+      "kpi1Label": "Visitors this month",
+      "kpi1Value": "12,480",
+      "kpi2Label": "Online sales",
+      "kpi2Value": "€3,214",
+      "kpi3Label": "Conversion rate",
+      "kpi3Value": "4.8%",
+      "chartLabel": "Website performance"
+    }
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Two services, one goal: growing your business",
+    "subtitle": "Start with a professional website and grow into smarter business management whenever you're ready.",
+    "sites": {
+      "badge": "Core service",
+      "title": "Website Creation",
+      "description": "Business websites, online stores and landing pages built to turn visitors into customers, all included in one affordable monthly fee.",
+      "features": [
+        "Responsive, modern design",
+        "Search engine optimization (SEO)",
+        "Hosting included",
+        "Ongoing technical support",
+        "Updates and maintenance included",
+        "SSL security certificate"
+      ],
+      "cta": "Explore plans"
+    },
+    "dashboards": {
+      "badge": "Optional add-on",
+      "title": "Custom Dashboards",
+      "description": "Management dashboards tailored to your business, so you can track sales, processes or customers in one place, in real time, on any device.",
+      "features": [
+        "Real-time metrics and KPIs",
+        "Built around your specific business",
+        "Secure access from any device",
+        "Direct integration with your Site49 website"
+      ],
+      "note": "Available as an add-on to any website plan, or included with the Enterprise plan.",
+      "cta": "Learn more",
+      "previewGrowth": "+18% this month",
+      "previewLabel": "Dashboard"
+    }
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "A plan for every stage of your business",
+    "subtitle": "No hidden costs. Cancel anytime, no penalties.",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "annualBadge": "2 months free",
+    "recommended": "Most popular",
+    "perMonth": "/mo",
+    "billedAnnually": "billed annually at {price}",
+    "ctaPlan": "Choose plan",
+    "addonTitle": "Custom Dashboard",
+    "addonNote": "Available as an optional add-on from €39/month on any plan — already included with the Enterprise plan.",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "description": "Perfect for starting your professional online presence.",
+        "price": "49",
+        "priceAnnual": "490",
+        "features": [
+          "Up to 5 pages",
+          "Responsive design",
+          "Domain included (1 year)",
+          "Hosting included",
+          "SSL certificate included",
+          "Email support",
+          "1 content update/month"
+        ]
+      },
+      "pro": {
+        "name": "Professional",
+        "description": "For businesses ready to sell and grow online.",
+        "price": "89",
+        "priceAnnual": "890",
+        "features": [
+          "Up to 12 pages",
+          "Online store (up to 50 products)",
+          "Advanced SEO",
+          "Domain and hosting included",
+          "SSL certificate included",
+          "Priority support",
+          "4 content updates/month",
+          "Monthly performance reports"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "A complete solution with dedicated management.",
+        "price": "149",
+        "priceAnnual": "1490",
+        "features": [
+          "Unlimited pages",
+          "Unlimited online store",
+          "Advanced SEO + content strategy",
+          "Premium domain and hosting",
+          "24/7 dedicated support",
+          "Unlimited updates",
+          "Dedicated account manager",
+          "Custom Dashboard included"
+        ]
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "title": "From first conversation to launch, without the hassle",
+    "subtitle": "A simple, transparent process designed to save you time.",
+    "steps": [
+      {
+        "title": "Initial conversation",
+        "description": "We get to know your business, your goals and what your website needs to succeed."
+      },
+      {
+        "title": "Design and content",
+        "description": "We build the custom design and put the content together with you, with revisions included until it's just right."
+      },
+      {
+        "title": "Launch",
+        "description": "Your website goes live, optimized, fast and ready to convert visitors into customers."
+      },
+      {
+        "title": "Ongoing support",
+        "description": "We keep monitoring, updating and optimizing your website every month, at no extra cost."
+      }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Websites built to inspire trust",
+    "subtitle": "A few examples of the kind of work we create for our clients.",
+    "items": [
+      { "title": "Sorriso+ Dental Clinic", "category": "Business website" },
+      { "title": "Vera Moda Store", "category": "Online store" },
+      { "title": "Linha Architecture Studio", "category": "Business website" },
+      { "title": "O Pátio Restaurant", "category": "Landing page" },
+      { "title": "Prisma Financial Advisors", "category": "Business website" },
+      { "title": "FitCore Gym", "category": "Landing page" }
+    ],
+    "viewProject": "View example"
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "Our clients recommend us",
+    "subtitle": "What people who've trusted their business to Site49 have to say.",
+    "items": [
+      {
+        "name": "Marta Oliveira",
+        "role": "Owner, Sorriso+ Clinic",
+        "text": "Our website was live in two weeks and we were already getting bookings through it. The monthly support gives us a peace of mind we never had with our previous agency.",
+        "rating": 5
+      },
+      {
+        "name": "Ricardo Almeida",
+        "role": "Founder, Vera Moda Store",
+        "text": "Our online store exceeded expectations. The monthly fee is fair, and we never worry about hosting, security or updates anymore.",
+        "rating": 5
+      },
+      {
+        "name": "Sofia Baptista",
+        "role": "Director, Prisma Advisors",
+        "text": "The custom dashboard changed the way we track our clients. Everything in one panel, simple and clear.",
+        "rating": 5
+      },
+      {
+        "name": "Tiago Ferreira",
+        "role": "Chef and owner, O Pátio Restaurant",
+        "text": "With zero tech experience, the Site49 team handled everything. Our website is now the restaurant's calling card.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Still have questions?",
+    "subtitle": "We've gathered the questions our clients ask us most.",
+    "items": [
+      {
+        "question": "Is there a long-term contract?",
+        "answer": "No. We work on a monthly basis with no mandatory commitment. You can cancel anytime, with no penalties."
+      },
+      {
+        "question": "How long does it take to launch my website?",
+        "answer": "On average, 2 to 4 weeks, depending on project complexity and how quickly content and feedback are shared."
+      },
+      {
+        "question": "Who writes the content for my website?",
+        "answer": "Our team helps structure and write the copy together with you, based on your business information. You can also provide your own content if you prefer."
+      },
+      {
+        "question": "What happens if I want to cancel?",
+        "answer": "You can cancel anytime, with no penalties. We provide your website files so the transition is simple."
+      },
+      {
+        "question": "Can I change plans later?",
+        "answer": "Yes. You can upgrade or downgrade your plan at any time, depending on your business needs."
+      },
+      {
+        "question": "Are the domain and hosting included?",
+        "answer": "Yes, domain and hosting are included in every plan, with no extra costs for you to manage."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's build your professional website",
+    "subtitle": "Fill in the form and our team will get back to you within 24 hours.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+1 555 000 0000",
+      "message": "Message",
+      "messagePlaceholder": "Tell us a bit about your business and what you're looking for...",
+      "submit": "Get a quote",
+      "success": "Message sent successfully! We'll be in touch shortly."
+    },
+    "info": {
+      "title": "Direct contact",
+      "email": "hello@site49.com",
+      "phone": "+351 210 000 000",
+      "hours": "Monday to Friday, 9am–6pm"
+    }
+  },
+  "footer": {
+    "description": "Professional websites for one simple monthly fee, starting at €49/month. No big investments, no hassle.",
+    "quickLinksTitle": "Quick links",
+    "legalTitle": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "cookies": "Cookie Policy",
+    "socialTitle": "Follow us",
+    "rights": "© {year} Site49. All rights reserved."
+  }
+}

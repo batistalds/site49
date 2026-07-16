@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "title": "Site49 — Sitios web profesionales desde 49€/mes",
+    "description": "Site49 crea y gestiona tu sitio web profesional por una cuota mensual sencilla, desde 49€/mes. Diseño, alojamiento, mantenimiento y soporte incluidos."
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "portfolio": "Portafolio",
+    "contact": "Contacto",
+    "cta": "Pedir presupuesto",
+    "languageLabel": "Idioma"
+  },
+  "languages": {
+    "pt-PT": "Português (Portugal)",
+    "pt-BR": "Português (Brasil)",
+    "en": "English",
+    "es": "Español"
+  },
+  "hero": {
+    "badge": "Sitios web profesionales, sin complicaciones",
+    "titlePrefix": "El sitio web profesional que tu negocio merece,",
+    "titleHighlight": "desde 49€/mes",
+    "subtitle": "Diseño, alojamiento, mantenimiento y soporte técnico incluidos en una única cuota mensual. Sin grandes inversiones iniciales y sin sorpresas en la factura.",
+    "ctaPrimary": "Pedir presupuesto",
+    "ctaSecondary": "Ver planes",
+    "trust": {
+      "sites": "+200 sitios creados",
+      "rating": "4.9/5 de satisfacción",
+      "noLockIn": "Sin permanencia obligatoria"
+    },
+    "mockup": {
+      "browserLabel": "panel.site49.es",
+      "kpi1Label": "Visitantes este mes",
+      "kpi1Value": "12.480",
+      "kpi2Label": "Ventas online",
+      "kpi2Value": "3.214 €",
+      "kpi3Label": "Tasa de conversión",
+      "kpi3Value": "4,8%",
+      "chartLabel": "Rendimiento del sitio"
+    }
+  },
+  "services": {
+    "eyebrow": "Qué hacemos",
+    "title": "Dos servicios, un mismo objetivo: hacer crecer tu negocio",
+    "subtitle": "Empieza con un sitio web profesional y evoluciona hacia una gestión más inteligente de tu negocio cuando estés listo.",
+    "sites": {
+      "badge": "Servicio principal",
+      "title": "Creación de Sitios Web",
+      "description": "Sitios institucionales, tiendas online y landing pages diseñados para convertir visitantes en clientes, todo incluido en una cuota mensual asequible.",
+      "features": [
+        "Diseño responsivo y moderno",
+        "Optimización para buscadores (SEO)",
+        "Alojamiento incluido",
+        "Soporte técnico continuo",
+        "Actualizaciones y mantenimiento incluidos",
+        "Certificado de seguridad (SSL)"
+      ],
+      "cta": "Explorar planes"
+    },
+    "dashboards": {
+      "badge": "Complemento opcional",
+      "title": "Dashboards Personalizados",
+      "description": "Paneles de gestión a medida de tu negocio, para seguir ventas, procesos o clientes en un solo lugar, en tiempo real y desde cualquier dispositivo.",
+      "features": [
+        "Métricas e indicadores en tiempo real",
+        "Diseñado a medida de tu negocio",
+        "Acceso seguro desde cualquier dispositivo",
+        "Integración directa con tu sitio Site49"
+      ],
+      "note": "Disponible como complemento en cualquier plan, o incluido en el plan Empresarial.",
+      "cta": "Saber más",
+      "previewGrowth": "+18% este mes",
+      "previewLabel": "Panel"
+    }
+  },
+  "pricing": {
+    "eyebrow": "Precios",
+    "title": "Un plan para cada etapa de tu negocio",
+    "subtitle": "Sin costes ocultos. Cancela cuando quieras, sin penalizaciones.",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "annualBadge": "2 meses gratis",
+    "recommended": "Más elegido",
+    "perMonth": "/mes",
+    "billedAnnually": "facturado anualmente a {price}",
+    "ctaPlan": "Elegir plan",
+    "addonTitle": "Dashboard Personalizado",
+    "addonNote": "Disponible como complemento opcional desde 39€/mes en cualquier plan — ya incluido en el plan Empresarial.",
+    "plans": {
+      "basic": {
+        "name": "Básico",
+        "description": "Ideal para empezar con presencia profesional online.",
+        "price": "49",
+        "priceAnnual": "490",
+        "features": [
+          "Hasta 5 páginas",
+          "Diseño responsivo",
+          "Dominio incluido (1 año)",
+          "Alojamiento incluido",
+          "Certificado SSL incluido",
+          "Soporte por email",
+          "1 actualización de contenido/mes"
+        ]
+      },
+      "pro": {
+        "name": "Profesional",
+        "description": "Para negocios que quieren vender y crecer online.",
+        "price": "89",
+        "priceAnnual": "890",
+        "features": [
+          "Hasta 12 páginas",
+          "Tienda online (hasta 50 productos)",
+          "SEO avanzado",
+          "Dominio y alojamiento incluidos",
+          "Certificado SSL incluido",
+          "Soporte prioritario",
+          "4 actualizaciones de contenido/mes",
+          "Informes mensuales de rendimiento"
+        ]
+      },
+      "enterprise": {
+        "name": "Empresarial",
+        "description": "Solución completa con gestión dedicada.",
+        "price": "149",
+        "priceAnnual": "1490",
+        "features": [
+          "Páginas ilimitadas",
+          "Tienda online ilimitada",
+          "SEO avanzado + estrategia de contenido",
+          "Dominio y alojamiento premium",
+          "Soporte dedicado 24/7",
+          "Actualizaciones ilimitadas",
+          "Gestor de cuenta dedicado",
+          "Dashboard Personalizado incluido"
+        ]
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Cómo funciona",
+    "title": "Del primer contacto al lanzamiento, sin complicaciones",
+    "subtitle": "Un proceso simple y transparente, pensado para no quitarte tiempo.",
+    "steps": [
+      {
+        "title": "Conversación inicial",
+        "description": "Conocemos tu negocio, tus objetivos y lo que tu sitio web necesita para tener éxito."
+      },
+      {
+        "title": "Diseño y contenido",
+        "description": "Creamos el diseño a medida y reunimos el contenido contigo, con revisiones incluidas hasta que quede perfecto."
+      },
+      {
+        "title": "Lanzamiento",
+        "description": "Tu sitio web sale a producción, optimizado, rápido y listo para convertir visitantes en clientes."
+      },
+      {
+        "title": "Soporte continuo",
+        "description": "Seguimos supervisando, actualizando y optimizando tu sitio cada mes, sin coste adicional."
+      }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Portafolio",
+    "title": "Sitios web hechos para transmitir confianza",
+    "subtitle": "Algunos ejemplos del tipo de trabajo que creamos para nuestros clientes.",
+    "items": [
+      { "title": "Clínica Dental Sorriso+", "category": "Sitio institucional" },
+      { "title": "Tienda Vera Moda", "category": "Tienda online" },
+      { "title": "Estudio de Arquitectura Linha", "category": "Sitio institucional" },
+      { "title": "Restaurante O Pátio", "category": "Landing page" },
+      { "title": "Asesoría Financiera Prisma", "category": "Sitio institucional" },
+      { "title": "Gimnasio FitCore", "category": "Landing page" }
+    ],
+    "viewProject": "Ver ejemplo"
+  },
+  "testimonials": {
+    "eyebrow": "Testimonios",
+    "title": "Quien trabaja con nosotros, nos recomienda",
+    "subtitle": "La opinión de quienes ya han confiado su negocio a Site49.",
+    "items": [
+      {
+        "name": "Marta Oliveira",
+        "role": "Propietaria, Clínica Sorriso+",
+        "text": "En dos semanas ya teníamos el sitio en marcha y empezamos a recibir citas a través de él. El seguimiento mensual nos da una tranquilidad que no teníamos con la agencia anterior.",
+        "rating": 5
+      },
+      {
+        "name": "Ricardo Almeida",
+        "role": "Fundador, Tienda Vera Moda",
+        "text": "La tienda online superó las expectativas. La cuota mensual es justa y ya no nos preocupamos por alojamiento, seguridad ni actualizaciones.",
+        "rating": 5
+      },
+      {
+        "name": "Sofia Baptista",
+        "role": "Directora, Asesoría Prisma",
+        "text": "El dashboard personalizado cambió la forma en que seguimos a nuestros clientes. Todo en un único panel, simple y claro.",
+        "rating": 5
+      },
+      {
+        "name": "Tiago Ferreira",
+        "role": "Chef y propietario, Restaurante O Pátio",
+        "text": "Sin ninguna experiencia en tecnología, el equipo de Site49 se encargó de todo. Hoy nuestro sitio web es la carta de presentación del restaurante.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "¿Todavía tienes dudas?",
+    "subtitle": "Reunimos las preguntas más habituales de nuestros clientes.",
+    "items": [
+      {
+        "question": "¿Existe permanencia o contrato mínimo?",
+        "answer": "No. Trabajamos con cuotas mensuales sin permanencia obligatoria. Puedes cancelar cuando quieras, sin penalizaciones."
+      },
+      {
+        "question": "¿Cuánto tarda en estar listo el sitio web?",
+        "answer": "De media, entre 2 y 4 semanas, dependiendo de la complejidad del proyecto y de la rapidez al compartir contenidos y feedback."
+      },
+      {
+        "question": "¿Quién escribe los textos de mi sitio web?",
+        "answer": "Nuestro equipo te ayuda a estructurar y redactar los textos contigo, basándose en la información de tu negocio. También puedes aportar tu propio contenido si lo prefieres."
+      },
+      {
+        "question": "¿Qué ocurre si quiero cancelar?",
+        "answer": "Puedes cancelar cuando quieras, sin penalizaciones. Te facilitamos los archivos de tu sitio web para que la transición sea sencilla."
+      },
+      {
+        "question": "¿Puedo cambiar de plan más adelante?",
+        "answer": "Sí. Puedes hacer upgrade o downgrade de tu plan en cualquier momento, según las necesidades de tu negocio."
+      },
+      {
+        "question": "¿El dominio y el alojamiento están incluidos?",
+        "answer": "Sí, el dominio y el alojamiento están incluidos en todos los planes, sin costes adicionales que tengas que gestionar."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Creemos juntos tu sitio web profesional",
+    "subtitle": "Rellena el formulario y nuestro equipo se pondrá en contacto en menos de 24 horas.",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre completo",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "phone": "Teléfono",
+      "phonePlaceholder": "+34 600 000 000",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos un poco sobre tu negocio y lo que buscas...",
+      "submit": "Pedir presupuesto",
+      "success": "¡Mensaje enviado con éxito! Nos pondremos en contacto contigo en breve."
+    },
+    "info": {
+      "title": "Contacto directo",
+      "email": "hola@site49.es",
+      "phone": "+351 210 000 000",
+      "hours": "Lunes a viernes, 9h–18h"
+    }
+  },
+  "footer": {
+    "description": "Sitios web profesionales por una cuota mensual sencilla, desde 49€/mes. Sin grandes inversiones, sin complicaciones.",
+    "quickLinksTitle": "Enlaces rápidos",
+    "legalTitle": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "cookies": "Política de Cookies",
+    "socialTitle": "Síguenos",
+    "rights": "© {year} Site49. Todos los derechos reservados."
+  }
+}
