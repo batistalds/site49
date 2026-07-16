@@ -251,12 +251,14 @@
       "message": "Message",
       "messagePlaceholder": "Tell us a bit about your business and what you're looking for...",
       "submit": "Get a quote",
-      "success": "Message sent successfully! We'll be in touch shortly."
+      "sending": "Sending...",
+      "success": "Message sent successfully! We'll be in touch shortly.",
+      "error": "We couldn't send your message. Please try again or reach us on WhatsApp."
     },
     "info": {
       "title": "Direct contact",
-      "email": "hello@site49.com",
-      "phone": "+351 210 000 000",
+      "whatsappCta": "Click here to chat with us",
+      "whatsappMessage": "Hi! I'd like to request a quote for a Site49 website.",
       "hours": "Monday to Friday, 9am–6pm"
     }
   },

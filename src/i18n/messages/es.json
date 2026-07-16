@@ -251,12 +251,14 @@
       "message": "Mensaje",
       "messagePlaceholder": "Cuéntanos un poco sobre tu negocio y lo que buscas...",
       "submit": "Pedir presupuesto",
-      "success": "¡Mensaje enviado con éxito! Nos pondremos en contacto contigo en breve."
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado con éxito! Nos pondremos en contacto contigo en breve.",
+      "error": "No hemos podido enviar el mensaje. Inténtalo de nuevo o escríbenos por WhatsApp."
     },
     "info": {
       "title": "Contacto directo",
-      "email": "hola@site49.es",
-      "phone": "+351 210 000 000",
+      "whatsappCta": "Haz clic aquí para hablar con nosotros",
+      "whatsappMessage": "¡Hola! Me gustaría pedir un presupuesto para un sitio web de Site49.",
       "hours": "Lunes a viernes, 9h–18h"
     }
   },

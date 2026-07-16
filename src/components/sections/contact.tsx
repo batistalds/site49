@@ -2,21 +2,50 @@
 
 import { useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
-import { Clock, Mail, Phone, Send, CheckCircle2 } from "lucide-react";
+import { Clock, Send, CheckCircle2, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { SectionHeading } from "@/components/section-heading";
 import { Reveal } from "@/components/motion/reveal";
+import { WhatsappIcon } from "@/components/icons/social";
+import { FORMSUBMIT_ENDPOINT, getWhatsappLink } from "@/lib/constants";
+
+type Status = "idle" | "sending" | "success" | "error";
 
 export function Contact() {
   const t = useTranslations("contact");
-  const [submitted, setSubmitted] = useState(false);
+  const [status, setStatus] = useState<Status>("idle");
+  const whatsappLink = getWhatsappLink(t("info.whatsappMessage"));
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    setSubmitted(true);
+    setStatus("sending");
+
+    const form = event.currentTarget;
+    const data = Object.fromEntries(new FormData(form).entries());
+
+    try {
+      const response = await fetch(FORMSUBMIT_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          ...data,
+          _subject: "Novo pedido de orçamento — Site49",
+          _template: "table",
+        }),
+      });
+
+      if (!response.ok) throw new Error("Request failed");
+      setStatus("success");
+      form.reset();
+    } catch {
+      setStatus("error");
+    }
   }
 
   return (
@@ -27,7 +56,7 @@ export function Contact() {
         <div className="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-10 lg:grid-cols-5">
           <Reveal className="lg:col-span-3">
             <div className="rounded-3xl bg-white p-6 shadow-2xl sm:p-8">
-              {submitted ? (
+              {status === "success" ? (
                 <div className="flex min-h-80 flex-col items-center justify-center gap-4 text-center">
                   <span className="flex size-14 items-center justify-center rounded-full bg-emerald-100 text-emerald-600">
                     <CheckCircle2 className="size-7" />
@@ -84,12 +113,20 @@ export function Contact() {
                     />
                   </div>
 
+                  {status === "error" && (
+                    <p className="flex items-center gap-2 text-sm font-medium text-destructive">
+                      <AlertCircle className="size-4 shrink-0" />
+                      {t("form.error")}
+                    </p>
+                  )}
+
                   <Button
                     type="submit"
                     size="lg"
+                    disabled={status === "sending"}
                     className="w-full gap-2 rounded-full bg-cta text-base font-semibold text-cta-foreground hover:bg-cta-hover"
                   >
-                    {t("form.submit")}
+                    {status === "sending" ? t("form.sending") : t("form.submit")}
                     <Send className="size-4" />
                   </Button>
                 </form>
@@ -101,23 +138,19 @@ export function Contact() {
             <div className="flex h-full flex-col justify-center gap-6 rounded-3xl border border-white/10 bg-white/5 p-8">
               <h3 className="font-heading text-xl font-bold text-white">{t("info.title")}</h3>
 
-              <div className="flex items-center gap-4">
-                <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-white/10 text-cta">
-                  <Mail className="size-5" />
+              <a
+                href={whatsappLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-4"
+              >
+                <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-white/10 text-cta transition-colors group-hover:bg-cta group-hover:text-cta-foreground">
+                  <WhatsappIcon className="size-5" />
                 </span>
-                <a href={`mailto:${t("info.email")}`} className="text-white/85 hover:text-white">
-                  {t("info.email")}
-                </a>
-              </div>
-
-              <div className="flex items-center gap-4">
-                <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-white/10 text-cta">
-                  <Phone className="size-5" />
+                <span className="font-medium text-white/85 underline decoration-white/30 underline-offset-4 group-hover:text-white group-hover:decoration-cta">
+                  {t("info.whatsappCta")}
                 </span>
-                <a href={`tel:${t("info.phone").replace(/\s/g, "")}`} className="text-white/85 hover:text-white">
-                  {t("info.phone")}
-                </a>
-              </div>
+              </a>
 
               <div className="flex items-center gap-4">
                 <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-white/10 text-cta">

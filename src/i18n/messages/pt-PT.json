@@ -251,12 +251,14 @@
       "message": "Mensagem",
       "messagePlaceholder": "Conte-nos um pouco sobre o seu negócio e o que procura...",
       "submit": "Pedir orçamento",
-      "success": "Mensagem enviada com sucesso! Entraremos em contacto em breve."
+      "sending": "A enviar...",
+      "success": "Mensagem enviada com sucesso! Entraremos em contacto em breve.",
+      "error": "Não foi possível enviar a mensagem. Tente novamente ou contacte-nos pelo WhatsApp."
     },
     "info": {
       "title": "Contacto direto",
-      "email": "ola@site49.pt",
-      "phone": "+351 210 000 000",
+      "whatsappCta": "Clique aqui para falar connosco",
+      "whatsappMessage": "Olá! Gostaria de pedir um orçamento para um site da Site49.",
       "hours": "Segunda a sexta, 9h–18h"
     }
   },
